@@ -11,8 +11,7 @@ const lto = new LTO("L");
 //lto.relay = new Relay("https://relay.lto.network/");
 lto.relay = new Relay("http://localhost:3000/");
 
-// const pathToZipFile = `${__dirname}/files/build-your-own-blockchain.zip`;
-const pathToZipFile = `${__dirname}/files/Multiple_Files.zip`;
+const pathToZipFile = `${__dirname}/files/Tile.zip`;
 
 async function sendZipFile() {
   try {
