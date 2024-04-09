@@ -1,0 +1,21 @@
+{
+  "name": "ownables-play-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ltonetwork/lto": "^0.16.6",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "ioredis": "^5.3.2",
+    "jszip": "^3.10.1",
+    "unzipper": "^0.10.14",
+    "zlib": "^1.0.5"
+  }
+}
