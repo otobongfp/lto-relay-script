@@ -28,7 +28,7 @@ async function sendZipFile() {
       console.log("provide the signer and recipient");
     }
 
-    await message.toBinary();
+    // await message.toBinary();
     await lto.relay.send(message);
     //await lto.anchor(account, message.hash);
     //console.log(base64EncodedZip);
